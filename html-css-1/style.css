@@ -1,0 +1,125 @@
+body {
+    background: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background: gray;
+    height: 40px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: x-large;
+    justify-content: start;
+}
+
+.home {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.buttons-right {
+    display: flex;
+    justify-content: end;
+}
+
+.about {
+    background: none;
+    border: none;
+    color: white;
+
+}
+
+.contact {
+    background: none;
+    border: none;
+    color: white;
+
+}
+
+.know {
+    background: black;
+    width: 700px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: yellow;
+}
+
+.lower-body {
+    background: white;
+    height: 180px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: row;
+    align-content: center; 
+}
+
+.box-green {
+    background: rgb(174, 250, 221);
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.orange-box {
+    background: rgb(240, 188, 92);
+    height: 130px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-lower {
+    background: white;
+    height: 135px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bot-white {
+    background: white;
+    height: 150px;
+    width: 700px;
+    display: flex;
+    justify-content: left;
+}
+
+.para {
+    height: 60px;
+    width: 250px;
+    font-size: 10px;
+    display: flex;
+    justify-items: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+img {
+    height: 110px;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.purple {
+    height: 30px;
+    width: 200px;
+    background: purple;
+}
